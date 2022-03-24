@@ -18,14 +18,14 @@ if os.sys.platform == "win32":
     os.system("cls")
 else:
     os.system("clear")
-print(''' 
-  
+print('''
+
            v0.9  Pre-release
       ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-      ┃       Made by Liztochekkkk       ┃
-      ┃  Telegram: @lzanim  ┃
-      ┃TikTok : Liztochek.com ┃
-      ┃Discord : liztochek💔#4017 ┃
+      ┃       Made by Liztochekkkk  ┃
+      ┃  Telegram: @lzanim          ┃
+      ┃TikTok : Liztochek.com       ┃
+      ┃Discord : Liztochek👨💻#8310┃
       ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 ''')
@@ -34,6 +34,7 @@ print("\n МЫ НЕ НЕСЕМ ОТВЕТСВЕННОСТИ ЗА ВАШИ ДЕЙ
 print()
 cool = int(input("Введите завис.число - от него будет зависеть скорость (Норма 8):  "))
 print("Напишите в любой чат телеграмма /help (В закрытых чатах команда не работает)")
+print("Сделано @Liztochekkkk / Дать идею discord : Liztochek👨💻#8310 / Telegram : @liztochekkkk / TikTok : liztochek.com")
 
 global number
 number = 0
@@ -135,7 +136,7 @@ async def valentine(client, message):
     drug = random.choice(drugsss)
     await message.edit(drug)
     await asyncio.sleep(5)
-    await message.edit("⭐ @liztochekkkk ")
+    await message.edit("💗 @liztochekkkk ")
 
 @app.on_message(filters.command("mum", prefixes=".") & filters.me)
 async def mum(client, message):
@@ -249,7 +250,7 @@ def betalove(_, msg):
         msg.edit(f'<b>⭐ @Liztochekkkk </b>')
 
 lzcasino = ["<b>Вы нечего не выиграли..</b>", "<b>Вы получаете premium версию , чтобы забрать пишите человеку под ником @liztochekkkk</b>", "<b> Вы получаете получаете подписку от листочка , напишите @liztochekkkk</b>"]
-    
+
 @app.on_message(filters.command("kakdela", prefixes=".") & filters.me)
 def valentine(_, msg):
     txt = kakdela.split("\n")
@@ -330,7 +331,7 @@ def valentine(_, msg):
     global number
     number = number + 1
     msg.edit(f'<b> @Liztochekkkk </b>')
-    msg.edit(f'<b>⭐ @Liztochekkkk </b>')     
+    msg.edit(f'<b>⭐ @Liztochekkkk </b>')
 
 @app.on_message(filters.command("xuy", prefixes=".") & filters.me)
 async def valentine(app, message):
@@ -477,6 +478,15 @@ def valentine(_, msg):
     global number
     number = number + 1
     msg.edit(f'<b> @liztochekkkk </b>')
+    sleep(time)
+    msg.edit(f'<b> Made by @liztochekkkk </b>')
+    sleep(time)
+    msg.edit(f'<b> Discord : Liztochek👨💻#8310 </b>')
+    sleep(time)
+    msg.edit(f'<b> Ask for help : telegram ( @Liztochekkkk ) , TikTok : liztochek.com , Discord : Liztochek👨💻#8310. </b>')
+    sleep(time)
+    msg.edit(f'<b>👽 Made by @liztochekkkk </b>')
+    sleep(time)
     msg.edit(f'<b>⭐ @liztochekkkk </b>')
 
 @app.on_message(filters.command("random", prefixes=".") & filters.me)
@@ -488,7 +498,7 @@ def random_(_, msg):
 
 too = random.randint(0, 100)
 roi = f'<b> Случайное число: </b>'
-    
+
 @app.on_message(filters.command("ghoul", prefixes=".") & filters.me)
 def valentine(app, message):
     global number
@@ -533,7 +543,7 @@ def valentine(app, message):
     app.send_message(message.chat.id,f'''
 📙<b> Команды:</b> \n<b> - t.me/lzanim</b> \n
 
-💎 <b>Приобрести PREMIUM анимацию: </b>\n <b>- @liztochekkkk</b> \n                             
+💎 <b>Приобрести PREMIUM анимацию: </b>\n <b>- @liztochekkkk</b> \n
 
 ''', disable_web_page_preview=True)
 
@@ -807,7 +817,7 @@ def valentine(_, msg):
 def betaloves(_, msg):
     time = 0.6
     for i in range(1):
-        msg.edit(f'''      
+        msg.edit(f'''
 🟦''')  # red
         sleep(0.001)
         msg.edit(f'''
@@ -1747,10 +1757,10 @@ def valentine(app, message):
      ''')
 
 jopa = '''
-           <b>ВЗЛОМ ЖОПЫ</b> 
-           <b><i>Loading...</i></b> 
+           <b>ВЗЛОМ ЖОПЫ</b>
+           <b><i>Loading...</i></b>
     10%  █▒▒▒▒▒▒▒▒▒▒▒▒
-    30%  ███▒▒▒▒▒▒▒▒▒▒    
+    30%  ███▒▒▒▒▒▒▒▒▒▒
     50%  █████▒▒▒▒▒▒▒▒
     66%  ██████▒▒▒▒▒▒▒
     79%  ████████▒▒▒▒▒
@@ -1809,12 +1819,13 @@ love = '''
 <b>Я люблю тебя ❤️‍🔥</b>
 <b>Я люблю тебя ❤️‍🔥</b>
 <b>Я люблю тебя ❤️‍🔥</b>
+<b>Я обожаю тебя ❤️‍🔥</b>
 <b>Я люблю тебя ❤️‍🔥</b>
 
 '''
 
 comp = '''
-<b>Крошечные напоминания того, что ты...</b> 
+<b>Крошечные напоминания того, что ты...</b>
 
 <b>Самая удивительная</b> ✨
 
@@ -2095,7 +2106,7 @@ kakdela = '''
 <b>Как дела , Самая отрадная? ✨</b>
 '''
 
-dela= ''' 
+dela= '''
 <b>Что делаешь , Самая удивительная</b> ✨
 
 <b>Что делаешь , Самая внимательная</b> ✨
