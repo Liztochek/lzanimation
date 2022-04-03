@@ -9,7 +9,7 @@ from pyrogram.errors import FloodWait
 import textwrap
 import os
 
-app = Client('admin', api_id=15493227, api_hash='770cfc343e6a103620641892ab62da63')
+app = Client('my_account', api_id=15493227, api_hash='770cfc343e6a103620641892ab62da63')
 
 app.start()
 
@@ -20,13 +20,13 @@ else:
     os.system("clear")
 print('''
 
-           version 0.7 [Beta]
-      ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-      ┃  Made by Liztochekkkk       ┃
-      ┃  Telegram: @lzanim          ┃
-      ┃TikTok : Liztochek.com       ┃
-      ┃Discord : Liztochek#8310     ┃
-      ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+                version 0.9.1
+      ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+      ┃  Made by Liztochekkkk                             ┃
+      ┃  Telegram: https://t.me/scriptsliztochek          ┃
+      ┃TikTok : Liztochek.com                             ┃
+      ┃Discord : Liztochek#8310                           ┃
+      ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 ''')
 print("После ввода задержки напишите в любой телеграм чат команду /help для просмотра команд!")
@@ -153,6 +153,11 @@ def valentine(_, msg):
     sleep(time)
     msg.edit(f'<b> 💖 Аничка самая лучшая , люблю ее 💖 ')
 
+anichka = '''
+<b> Аничка самая красивая </b>
+<b> Аничка самая лучшая </b>
+<b> Аничка выйдешь за меня??? </b>
+'''
 
 @app.on_message(filters.command("dead", prefixes=".") & filters.me)
 def valentine(_, msg):
