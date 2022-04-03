@@ -9,7 +9,7 @@ from pyrogram.errors import FloodWait
 import textwrap
 import os
 
-app = Client('admin', api_id=15897262, api_hash='90476d9c65a86b03837e1e249314cd75')
+app = Client('admin', api_id=15493227, api_hash='770cfc343e6a103620641892ab62da63')
 
 app.start()
 
@@ -20,12 +20,12 @@ else:
     os.system("clear")
 print('''
 
-           v0.9  Pre-release
+           version 0.7 [Beta]
       ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-      ┃       Made by Liztochekkkk  ┃
+      ┃  Made by Liztochekkkk       ┃
       ┃  Telegram: @lzanim          ┃
       ┃TikTok : Liztochek.com       ┃
-      ┃Discord : Liztochek👨💻#8310┃
+      ┃Discord : Liztochek#8310     ┃
       ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 ''')
@@ -34,7 +34,7 @@ print("\n МЫ НЕ НЕСЕМ ОТВЕТСВЕННОСТИ ЗА ВАШИ ДЕЙ
 print()
 cool = int(input("Введите завис.число - от него будет зависеть скорость (Норма 8):  "))
 print("Напишите в любой чат телеграмма /help (В закрытых чатах команда не работает)")
-print("Сделано @Liztochekkkk / Дать идею discord : Liztochek👨💻#8310 / Telegram : @liztochekkkk / TikTok : liztochek.com")
+print("Сделано @Liztochekkkk / Дать идею discord : Liztochek#8310 / Telegram : @liztochekkkk / TikTok : liztochek.com")
 
 global number
 number = 0
@@ -75,6 +75,14 @@ def sendgif(app, message):
         sleep(0.01)
         app.send_document(message.chat.id, "https://tenor.com/view/kiss-sweet-heart-love-in-love-gif-17238105")
 
+@app.on_message(filters.command("anichka", prefixes=".") & filters.me)
+def sendgif(app, message):
+    global number
+    number = number + 1
+    for _ in  range(int(message.command[1])):
+        sleep(0.01)
+        app.send_document(message.chat.id, "https://tenor.com/view/anya-fallen-doll-operation-lovecraft-helius-pet-gif-24116304")
+
 @app.on_message(filters.command("razrab", prefixes=",") & filters.me)
 def betalove(_, msg):
     time = 0.6
@@ -97,9 +105,53 @@ def betalove(_, msg):
         sleep(time)
         msg.edit(f"<b> Made by @Liztochekkkk </b>")
         sleep(time)
-        msg.edit(f"<b> Discord : liztochek💔#4017</b>")
+        msg.edit(f"<b> Discord : Liztochek👨💻#8310</b>")
         sleep(3)
         msg.edit(f"<b>⭐ @Liztochekkkk </b>")
+
+@app.on_message(filters.command("anichka", prefixes=".") & filters.me)
+def valentine(_, msg):
+    txt = anichka.split("\n")
+    e = True
+    etime = int(msg.text.split('.anichka', maxsplit=1)[1])
+    for i in txt:
+        time = etime
+        if e == True:
+            e = False
+        elif time > 10:
+            try:
+                msg.edit('<b>Error: Нельзя ставить больше 10с!</b>')
+                sleep(0.5)
+                msg.delete()
+            except:
+                pass
+        else:
+            try:
+                msg.edit(f'❤️{i} ❤️')
+                sleep(time / cool)
+                msg.edit(f'🧡 {i} 🧡')
+                sleep(time / cool)
+                msg.edit(f'💛 {i} 💛')
+                sleep(time / cool)
+                msg.edit(f'💚 {i} 💚')
+                sleep(time / cool)
+                msg.edit(f'💙 {i} 💙')
+                sleep(time / cool)
+                msg.edit(f'💜 {i} 💜')
+                sleep(time / cool)
+                msg.edit(f'🖤 {i} 🖤')
+                sleep(time / cool)
+                msg.edit(f'🤍 {i} 🤍')
+                sleep(time / cool)
+            except:
+                pass
+    global number
+    number = number + 1
+    msg.edit(f'<b> 💖 Made by liztochek 💖 </b>')
+    sleep(time)
+    msg.edit(f'<b> 💖 Люблю Аничку 💖 </b>')
+    sleep(time)
+    msg.edit(f'<b> 💖 Аничка самая лучшая , люблю ее 💖 ')
 
 
 @app.on_message(filters.command("dead", prefixes=".") & filters.me)
@@ -142,6 +194,9 @@ def valentine(_, msg):
     number = number + 1
     msg.edit(f'<b> @liztochekkkk </b>')
     msg.edit(f'<b>⭐ @liztochekkkk </b>')
+    msg.edit(f'<b> Спасибо за внимание!!')
+    sleep(0.5)
+    msg.delete()
 
 textded = '''
 <b> Я дед инсайд </b>
@@ -271,7 +326,7 @@ favrazrab= '''
 <b> (⊙ꇴ⊙) Крики Necromastery и вопли подо мной (⊙ꇴ⊙) </b>
 <b> (⊙ꇴ⊙) Руки дезоляторы, Shadow Nevermore (⊙ꇴ⊙) </b>
 <b> (⊙ꇴ⊙) Ха-а (⊙ꇴ⊙) </b>
-<b> (⊙ꇴ⊙) Это была песня - "never enough" (⊙ꇴ⊙) </b>
+<b> (⊙ꇴ⊙) Это была песня - never enough (⊙ꇴ⊙) </b>
 '''
 
 @app.on_message(filters.command("anya", prefixes=".") & filters.me)
@@ -566,7 +621,7 @@ def valentine(_, msg):
         sleep(time)
         msg.edit(f'<b> Discord : Liztochek👨💻#8310 </b>')
         sleep(time)
-        msg.edit(f'<b> Ask for help : telegram ( @Liztochekkkk ) , TikTok : liztochek.com , Discord : Liztochek👨💻#8310. </b>')
+        msg.edit(f'<b> Ask for help : telegram ( @Liztochekkkk ) , TikTok : liztochek.com , Discord : Liztochek#8310. </b>')
         sleep(time)
         msg.edit(f'<b>👽 Made by @liztochekkkk </b>')
         sleep(time)
@@ -623,7 +678,7 @@ def valentine(_, msg):
     sleep(time)
     msg.edit(f'<b> Discord : Liztochek👨💻#8310 </b>')
     sleep(time)
-    msg.edit(f'<b> Ask for help : telegram ( @Liztochekkkk ) , TikTok : liztochek.com , Discord : Liztochek👨💻#8310. </b>')
+    msg.edit(f'<b> Ask for help : telegram ( @Liztochekkkk ) , TikTok : liztochek.com , Discord : Liztochek#8310. </b>')
     sleep(time)
     msg.edit(f'<b>👽 Made by @liztochekkkk </b>')
     sleep(time)
@@ -1910,9 +1965,9 @@ jopa = '''
     99%  █████████████
     100% █████████████
     <b> ВАША ЖОПА ВЗЛОМАНА </b>
-    <b><i>Создатель: "Прощайте"</i></b>
-    <b><i>Создатель: "Прощайте"</i></b>
-    <b><i>Создатель: "Прощайте"</i></b>
+    <b><i>Создатель: "Сочуствую..."</i></b>
+    <b><i>Создатель: "Сочуствую..."</i></b>
+    <b><i>Создатель: "Сочуствую..."</i></b>
 '''
 zxc = '''
 <b>- All my friends are toxic, all ambitionless 💚</b>
@@ -1959,7 +2014,7 @@ love = '''
 <b>Я люблю тебя ❤️‍🔥</b>
 <b>Я люблю тебя ❤️‍🔥</b>
 <b>Я люблю тебя ❤️‍🔥</b>
-<b>Я обожаю тебя ❤️‍🔥</b>
+<b>Я люблю тебя ❤️‍🔥</b>
 <b>Я люблю тебя ❤️‍🔥</b>
 
 '''
