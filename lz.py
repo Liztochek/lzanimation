@@ -9,7 +9,7 @@ from pyrogram.errors import FloodWait
 import textwrap
 import os
 
-app = Client('my_account', api_id=15493227, api_hash='770cfc343e6a103620641892ab62da63')
+app = Client('admin', api_id=15493227, api_hash='770cfc343e6a103620641892ab62da63')
 
 app.start()
 
@@ -20,7 +20,7 @@ else:
     os.system("clear")
 print('''
 
-                version 0.9.1
+                version 0.9.5
       ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
       ┃  Made by Liztochekkkk                             ┃
       ┃  Telegram: https://t.me/scriptsliztochek          ┃
@@ -35,6 +35,7 @@ print()
 cool = int(input("Введите завис.число - от него будет зависеть скорость (Норма 8):  "))
 print("Напишите в любой чат телеграмма /help (В закрытых чатах команда не работает)")
 print("Сделано @Liztochekkkk / Дать идею discord : Liztochek#8310 / Telegram : @liztochekkkk / TikTok : liztochek.com")
+print("Если вы это видете значит у вас работает скрипт...")
 
 global number
 number = 0
@@ -75,7 +76,7 @@ def sendgif(app, message):
         sleep(0.01)
         app.send_document(message.chat.id, "https://tenor.com/view/kiss-sweet-heart-love-in-love-gif-17238105")
 
-@app.on_message(filters.command("anichka", prefixes=".") & filters.me)
+@app.on_message(filters.command("anschka", prefixes=".") & filters.me)
 def sendgif(app, message):
     global number
     number = number + 1
@@ -738,10 +739,12 @@ def spam(app, message):
         sleep(0.01)
         app.send_sticker(message.chat.id, "CAACAgIAAxkBAAEEEDZiI8ZlrkTWVAVlsaJ1yfd63euS2AACMgwAAgqBoEs52ePcv8NaIiME")
 
+
+
 @app.on_message(filters.command("help", prefixes="/") & filters.me)
 def valentine(app, message):
     app.send_message(message.chat.id,f'''
-📙<b> Команды:</b> \n<b> - t.me/lzanim</b> \n
+📙<b> Команды:</b> \n<b> - t.me/scriptsliztochek</b> \n
 
 💎 <b>Приобрести PREMIUM анимацию: </b>\n <b>- @liztochekkkk</b> \n
 
@@ -753,7 +756,7 @@ def help(app, message):
     #app.send_sticker(message.chat.id, "CAACAgIAAxkBAAEEEBZiI7rAcsLoSnaFlDjhCyi7KFcy6QACtg8AAg9W-UkHRqyQjgWY3iME")
     app.send_message(
         message.chat.id,
-        f"""💾<b> Профиль: </b> \n\n<b> Пользователь:</b><code> {message.from_user.first_name}</code>\n<b> Статус: User</b>\n\n<b> Chat_ID: </b><code> {message.chat.id}</code>\n<b> User_ID: </b><code> {message.from_user.id}</code>\n<b> Анимаций по старту:</b> <code>{number}</code>\n </b>""",
+        f"""💾<b> Профиль: </b> \n\n<b> Пользователь:</b><code> {message.from_user.first_name}</code>\n<b> Статус: Developer...</b>\n\n<b> Chat_ID: </b><code> {message.chat.id}</code>\n<b> User_ID: </b><code> {message.from_user.id}</code>\n<b> Анимаций по старту:</b> <code>{number}</code>\n </b>""",
         disable_web_page_preview=True)
 
 @app.on_message(filters.command("maslo", prefixes=".") & filters.me)
