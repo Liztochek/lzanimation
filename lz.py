@@ -98,7 +98,7 @@ def betalove(_, msg):
         sleep(time)
         msg.edit(f"<b>Подать идею разработчику писать в соц сети</b>")  # orange
         sleep(time)
-        msg.edit(f"<b>Подать идею разработчику писать в соц сети : Discord : Liztochek👨💻#8310</b>")  # orange
+        msg.edit(f"<b>Подать идею разработчику писать в соц сети : Discord : Liztochek#8310</b>")  # orange
         sleep(5)
         global number
         number = number + 1
@@ -106,15 +106,15 @@ def betalove(_, msg):
         sleep(time)
         msg.edit(f"<b> Made by @Liztochekkkk </b>")
         sleep(time)
-        msg.edit(f"<b> Discord : Liztochek👨💻#8310</b>")
+        msg.edit(f"<b> Discord : Liztochek#8310</b>")
         sleep(3)
-        msg.edit(f"<b>⭐ @Liztochekkkk </b>")
+        msg.edit(f"<b>🤖 @Liztochekkkk </b>")
 
-@app.on_message(filters.command("anichka", prefixes=".") & filters.me)
+@app.on_message(filters.command("masha", prefixes=".") & filters.me)
 def valentine(_, msg):
-    txt = anichka.split("\n")
+    txt = masha.split("\n")
     e = True
-    etime = int(msg.text.split('.anichka', maxsplit=1)[1])
+    etime = int(msg.text.split('.masha', maxsplit=1)[1])
     for i in txt:
         time = etime
         if e == True:
@@ -150,14 +150,14 @@ def valentine(_, msg):
     number = number + 1
     msg.edit(f'<b> 💖 Made by liztochek 💖 </b>')
     sleep(time)
-    msg.edit(f'<b> 💖 Люблю Аничку 💖 </b>')
+    msg.edit(f'<b> 💖 Машаааа самая лучшаяяя 💖 </b>')
     sleep(time)
-    msg.edit(f'<b> 💖 Аничка самая лучшая , люблю ее 💖 ')
+    msg.edit(f'<b> 👾 Liztochek 👾 ')
 
-anichka = '''
-<b> Аничка самая красивая </b>
-<b> Аничка самая лучшая </b>
-<b> Аничка выйдешь за меня??? </b>
+masha = '''
+<b> Машааааааааааа самая красивая </b>
+<b> Машенькааааааааааа самая лучшая </b>
+<b> Маш , выйдешь за меня??? </b>
 '''
 
 @app.on_message(filters.command("dead", prefixes=".") & filters.me)
@@ -199,7 +199,7 @@ def valentine(_, msg):
     global number
     number = number + 1
     msg.edit(f'<b> @liztochekkkk </b>')
-    msg.edit(f'<b>⭐ @liztochekkkk </b>')
+    msg.edit(f'<b>🤖 @liztochekkkk </b>')
     msg.edit(f'<b> Спасибо за внимание!!')
     sleep(0.5)
     msg.delete()
@@ -255,7 +255,7 @@ async def mum(client, message):
     text5 = random.choice(mamka)
     await message.edit(str(text5))
     await asyncio.sleep(5.0)
-    text6 = "⭐ @liztochekkkk "
+    text6 = "🤖 @liztochekkkk "
     await message.edit(str(text6))
 
 @app.on_message(filters.command("hapyb", prefixes=".") & filters.me)
@@ -284,7 +284,7 @@ def betalove(_, msg):
         sleep(time)
         msg.dit(f"<b> Discord : Liztochek👨💻#8310</b>")
         sleep(3)
-        msg.edit(f"<b>⭐ @Liztochekkkk </b>")
+        msg.edit(f"<b>🤖 @Liztochekkkk </b>")
 
 @app.on_message(filters.command("favrazrab", prefixes=",") & filters.me)
 def valentine(_, msg):
@@ -325,7 +325,7 @@ def valentine(_, msg):
     global number
     number = number + 1
     msg.edit(f'<b> @liztochekkkk </b>')
-    msg.edit(f'<b>⭐ @liztochekkkk </b>')
+    msg.edit(f'<b>🤖 @liztochekkkk </b>')
 
 favrazrab= '''
 <b> (⊙ꇴ⊙) Ха-а, ха-а, а-а (⊙ꇴ⊙)</b>
@@ -335,7 +335,7 @@ favrazrab= '''
 <b> (⊙ꇴ⊙) Это была песня - never enough (⊙ꇴ⊙) </b>
 '''
 
-@app.on_message(filters.command("anya", prefixes=".") & filters.me)
+@app.on_message(filters.command("mashenka", prefixes=".") & filters.me)
 def betalove(_, msg):
     time = 0.6
     for i in range(1):
@@ -351,17 +351,17 @@ def betalove(_, msg):
         sleep(time)
         msg.edit(f"<b>я люблю одно солнце это самая милая девочка под именем</b>")  # red
         sleep(time)
-        msg.edit(f"<b>я люблю одно солнце это самая милая девочка под именем , Аничка ❤</b>")  # orange
+        msg.edit(f"<b>я люблю одно солнце это самая милая девочка под именем , Машаааааааа ❤</b>")  # orange
         sleep(5)
         global number
         number = number + 1
         msg.edit(f"<b> @Liztochekkkk ❤</b>")
         sleep(time)
-        msg.edit(f"<b> Люблю Аничку ❤❤❤</b>")
+        msg.edit(f"<b> Люблю Машенькууууу ❤❤❤</b>")
         sleep(time)
-        msg.edit(f"<b> Аничка самая лучшая❤</b>")
+        msg.edit(f"<b> Машаааааа самая лучшая❤</b>")
         sleep(time)
-        msg.edit(f"<b>⭐ @Liztochekkkk ❤</b>")
+        msg.edit(f"<b>🤖 @Liztochekkkk ❤</b>")
 
 @app.on_message(filters.command("casino", prefixes=".") & filters.me)
 def betalove(_, msg):
@@ -393,7 +393,7 @@ def betalove(_, msg):
         sleep(time)
         msg.edit(f'<b>👾Made by @Liztochekkkk </b>')
         sleep(time)
-        msg.edit(f'<b>⭐ @Liztochekkkk </b>')
+        msg.edit(f'<b>🤖 @Liztochekkkk </b>')
 
 lzcasino = ["<b>Вы нечего не выиграли..</b>", "<b>Вы получаете premium версию , чтобы забрать пишите человеку под ником @liztochekkkk</b>", "<b> Вы получаете получаете подписку от листочка , напишите @liztochekkkk</b>"]
 
@@ -436,7 +436,7 @@ def valentine(_, msg):
     global number
     number = number + 1
     msg.edit(f'<b> @Liztochekkkk </b>')
-    msg.edit(f'<b>⭐ @Liztochekkkk </b>')
+    msg.edit(f'<b>🤖 @Liztochekkkk </b>')
 
 @app.on_message(filters.command("dela", prefixes=".") & filters.me)
 def valentine(_, msg):
@@ -477,7 +477,7 @@ def valentine(_, msg):
     global number
     number = number + 1
     msg.edit(f'<b> @Liztochekkkk </b>')
-    msg.edit(f'<b>⭐ @Liztochekkkk </b>')
+    msg.edit(f'<b>🤖 @Liztochekkkk </b>')
 
 @app.on_message(filters.command("xuy", prefixes=".") & filters.me)
 async def valentine(app, message):
@@ -582,7 +582,7 @@ def valentine(_, msg):
     global number
     number = number + 1
     msg.edit(f'<b> @liztochekkkk </b>')
-    msg.edit(f'<b>⭐ @liztochekkkk </b>')
+    msg.edit(f'<b>🤖 @liztochekkkk </b>')
 
 @app.on_message(filters.command("iloveyou", prefixes=",") & filters.me)
 def valentine(_, msg):
@@ -625,13 +625,13 @@ def valentine(_, msg):
         sleep(time)
         msg.edit(f'<b> Made by @liztochekkkk </b>')
         sleep(time)
-        msg.edit(f'<b> Discord : Liztochek👨💻#8310 </b>')
+        msg.edit(f'<b> Discord : Liztochek#8310 </b>')
         sleep(time)
         msg.edit(f'<b> Ask for help : telegram ( @Liztochekkkk ) , TikTok : liztochek.com , Discord : Liztochek#8310. </b>')
         sleep(time)
         msg.edit(f'<b>👽 Made by @liztochekkkk </b>')
         sleep(time)
-        msg.edit(f'<b>⭐ @liztochekkkk </b>')
+        msg.edit(f'<b>🤖 @liztochekkkk </b>')
 
 lovetext = '''
 <b> Я тебя люблю </b>
@@ -688,7 +688,7 @@ def valentine(_, msg):
     sleep(time)
     msg.edit(f'<b>👽 Made by @liztochekkkk </b>')
     sleep(time)
-    msg.edit(f'<b>⭐ @liztochekkkk </b>')
+    msg.edit(f'<b>🤖 @liztochekkkk </b>')
 
 @app.on_message(filters.command("random", prefixes=".") & filters.me)
 def random_(_, msg):
@@ -756,7 +756,7 @@ def help(app, message):
     #app.send_sticker(message.chat.id, "CAACAgIAAxkBAAEEEBZiI7rAcsLoSnaFlDjhCyi7KFcy6QACtg8AAg9W-UkHRqyQjgWY3iME")
     app.send_message(
         message.chat.id,
-        f"""💾<b> Профиль: </b> \n\n<b> Пользователь:</b><code> {message.from_user.first_name}</code>\n<b> Статус: Developer...</b>\n\n<b> Chat_ID: </b><code> {message.chat.id}</code>\n<b> User_ID: </b><code> {message.from_user.id}</code>\n<b> Анимаций по старту:</b> <code>{number}</code>\n </b>""",
+        f"""💾<b> Профиль: </b> \n\n<b> Пользователь:</b><code> {message.from_user.first_name}</code>\n<b> Статус: Liztochek...</b>\n\n<b> Chat_ID: </b><code> {message.chat.id}</code>\n<b> User_ID: </b><code> {message.from_user.id}</code>\n<b> Анимаций по старту:</b> <code>{number}</code>\n </b>""",
         disable_web_page_preview=True)
 
 @app.on_message(filters.command("maslo", prefixes=".") & filters.me)
@@ -780,7 +780,7 @@ def betalove(_, msg):
         global number
         number = number + 1
         msg.edit(f'<b> @liztochekkkk </b>')
-        msg.edit(f'<b>⭐ @liztochekkkk </b>')
+        msg.edit(f'<b>🤖 @liztochekkkk </b>')
 
 @app.on_message(filters.command("football", prefixes=".") & filters.me)
 def betalove(_, msg):
@@ -805,7 +805,7 @@ def betalove(_, msg):
         global number
         number = number + 1
         msg.edit(f'<b> @liztochekkkk </b>')
-        msg.edit(f'<b>⭐ @liztochekkkk </b>')
+        msg.edit(f'<b>🤖 @liztochekkkk </b>')
 
 foot = ["<b>❌ К сожалению, вы проиграли..</b>", "<b>✅ Вы забили гол и победили в игре!</b>"]
 
@@ -846,7 +846,7 @@ def betalove(_, msg):
         global number
         number = number + 1
         msg.edit(f'<b> @liztochekkkk </b>')
-        msg.edit(f'<b>⭐ @liztochekkkk </b>')
+        msg.edit(f'<b>🤖 @liztochekkkk </b>')
 
 kill = ["<b>🔪 Убийца нашел тебя, к сожалению ты спрятался плохо и был убит</b>", "<b>⚔️Убийца не нашел тебя, вы  очень хорошо спрятались.</b>"]
 
@@ -891,7 +891,7 @@ def valentine(_, msg):
     global number
     number = number + 1
     msg.edit(f'<b> @liztochekkkk </b>')
-    msg.edit(f'<b>⭐ @liztochekkkk </b>')
+    msg.edit(f'<b>🤖 @liztochekkkk </b>')
 
 @app.on_message(filters.command("love", prefixes=".") & filters.me)
 def valentine(_, msg):
@@ -932,7 +932,7 @@ def valentine(_, msg):
     global number
     number = number + 1
     msg.edit(f'<b> @liztochekkkk </b>')
-    msg.edit(f'<b>⭐ @liztochekkkk </b>')
+    msg.edit(f'<b>🤖 @liztochekkkk </b>')
 
 @app.on_message(filters.command("zxc", prefixes=".") & filters.me)
 def valentine(_, msg):
@@ -973,7 +973,7 @@ def valentine(_, msg):
     global number
     number = number + 1
     msg.edit(f'<b> @liztochekkkk </b>')
-    msg.edit(f'<b>⭐ @liztochekkkk</b>')
+    msg.edit(f'<b>🤖 @liztochekkkk</b>')
 
 @app.on_message(filters.command("ziga", prefixes=".") & filters.me)
 def valentine(_, msg):
@@ -1014,7 +1014,7 @@ def valentine(_, msg):
     global number
     number = number + 1
     msg.edit(f'<b> @liztochekkkk </b>')
-    msg.edit(f'<b>⭐ @liztochekkkk </b>')
+    msg.edit(f'<b>🤖 @liztochekkkk </b>')
 
 @app.on_message(filters.command("like", prefixes=".") & filters.me)
 def betaloves(_, msg):
@@ -1251,7 +1251,7 @@ def betaloves(_, msg):
         sleep(5)
         global number
         number = number + 1
-        msg.edit(f'<b>⭐ @liztochekkkk </b>')
+        msg.edit(f'<b>🤖 @liztochekkkk </b>')
 
 @app.on_message(filters.command("dislike", prefixes=".") & filters.me)
 def betaloves(_, msg):
@@ -1544,7 +1544,7 @@ def betaloves(_, msg):
         sleep(4)
         global number
         number = number + 1
-        msg.edit(f'<b>⭐ @liztochekkkk </b>')
+        msg.edit(f'<b>🤖 @liztochekkkk </b>')
 
 @app.on_message(filters.command("loves", prefixes=".") & filters.me)
 def betaloves(_, msg):
@@ -1680,7 +1680,7 @@ def betaloves(_, msg):
         sleep(3)
         global number
         number = number + 1
-        msg.edit(f'<b>⭐ @liztochekkkk </b>')
+        msg.edit(f'<b>🤖 @liztochekkkk </b>')
 
 @app.on_message(filters.command("heart", prefixes=".") & filters.me)
 def betalove(_, msg):
@@ -1768,7 +1768,10 @@ def betalove(_, msg):
         global number
         number = number + 1
         msg.edit(f'<b> @liztochekkkk </b>')
-        msg.edit(f'<b>⭐ @liztochekkkk </b>')
+        sleep(1)
+        msg.edit(f'<b>Код я не воровал , я все делал сам. Смотрел все туториалы в ютубе по userbotу </b>')
+        sleep(5)
+        msg.edit(f'<b>🤖 @liztochekkkk </b>')
 
 
 @app.on_message(filters.command("toxic", prefixes=".") & filters.me)
@@ -1956,12 +1959,12 @@ def valentine(app, message):
     global number
     number = number + 1
     app.send_message(message.chat.id, f'''
-     <b>⭐️ @liztochekkkk</b>
+     <b>🤖️ @liztochekkkk</b>
      ''')
 
 jopa = '''
            <b>ВЗЛОМ ЖОПЫ</b>
-           <b><i>Loading...</i></b>
+           <b><i>Загрузка...</i></b>
     10%  █▒▒▒▒▒▒▒▒▒▒▒▒
     30%  ███▒▒▒▒▒▒▒▒▒▒
     50%  █████▒▒▒▒▒▒▒▒
@@ -1969,6 +1972,7 @@ jopa = '''
     79%  ████████▒▒▒▒▒
     84%  █████████▒▒▒▒
     89%  ██████████▒▒▒
+    93%  ███████████▒▒
     95%  ████████████▒
     99%  █████████████
     100% █████████████
@@ -2846,5 +2850,5 @@ ziga = '''
 
 
 
-end_message = '<b> ⭐ @liztochekkkk </b>'
+end_message = '<b> 🤖 @liztochekkkk </b>'
 app.run()
