@@ -110,11 +110,41 @@ def betalove(_, msg):
         sleep(3)
         msg.edit(f"<b>🤖 @Liztochekkkk </b>")
 
-@app.on_message(filters.command("masha", prefixes=".") & filters.me)
+@app.on_message(filters.command("dinocha", prefixes=".") & filters.me)
+def betalove(_, msg):
+    time = 0.5
+    for i in range(1):
+        msg.edit(f"<b>я</b>")  # red
+        sleep(time)
+        msg.edit(f"<b>я тебя</b>")  # orange
+        sleep(time)
+        msg.edit(f"<b>я тебя люблю</b>")  # orange
+        sleep(time)
+        msg.edit(f"<b>я тебя люблю д</b>")  # red
+        sleep(time)
+        msg.edit(f"<b>я тебя люблю до безумия</b>")  # orange
+        sleep(time)
+        msg.edit(f"<b>я тебя люблю до безумия и до</b>")  # red
+        sleep(time)
+        msg.edit(f"<b>я тебя люблю до безумия и до потери пульса... 🥺</b>")  # orange
+        sleep(5)
+        global number
+        number = number + 1
+        msg.edit(f"<b> @Liztochekkkk </b>")
+        sleep(time)
+        msg.edit(f"<b> Made by @Liztochekkkk </b>")
+        sleep(time)
+        msg.dit(f"<b> Discord : Liztochek#8310</b>")
+        sleep(2)
+        msg.edit(f"<b>🤖 @Liztochekkkk </b>")
+        sleep(2)
+        msg.edit(f"<b>Дина самая лучшая!!! </b>")
+
+@app.on_message(filters.command("dina", prefixes=".") & filters.me)
 def valentine(_, msg):
-    txt = masha.split("\n")
+    txt = dina.split("\n")
     e = True
-    etime = int(msg.text.split('.masha', maxsplit=1)[1])
+    etime = int(msg.text.split('.dina', maxsplit=1)[1])
     for i in txt:
         time = etime
         if e == True:
@@ -150,14 +180,18 @@ def valentine(_, msg):
     number = number + 1
     msg.edit(f'<b> 💖 Made by liztochek 💖 </b>')
     sleep(time)
-    msg.edit(f'<b> 💖 Машаааа самая лучшаяяя 💖 </b>')
+    msg.edit(f'<b> 💖 Динааааааааааа самая лучшаяяя 💖 </b>')
     sleep(time)
-    msg.edit(f'<b> 👾 Liztochek 👾 ')
+    msg.edit(f'<b> 👾 Liztochek 👾 </b>')
 
-masha = '''
-<b> Машааааааааааа самая красивая </b>
-<b> Машенькааааааааааа самая лучшая </b>
-<b> Маш , выйдешь за меня??? </b>
+dina = '''
+<b> Динааааааааа самая красивая </b>
+<b> Диночкааааааа самая лучшая </b>
+<b> Дин , выйдешь за меня??? </b>
+<b> Очень люблю Дину!! </b>
+<b> Дина самая красивая!! </b>
+<b> Дина самая милая!! </b>
+<b> Дина, ты выйдешь за меня!!?? </b> 
 '''
 
 @app.on_message(filters.command("dead", prefixes=".") & filters.me)
