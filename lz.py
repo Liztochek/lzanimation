@@ -134,7 +134,7 @@ def betalove(_, msg):
         sleep(time)
         msg.edit(f"<b> Made by @Liztochekkkk </b>")
         sleep(time)
-        msg.dit(f"<b> Discord : Liztochek#8310</b>")
+        msg.edit(f"<b> Discord : Liztochek#8310</b>")
         sleep(2)
         msg.edit(f"<b>🤖 @Liztochekkkk </b>")
         sleep(2)
