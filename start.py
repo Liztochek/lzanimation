@@ -100,7 +100,7 @@ def betalove(_, msg):
         sleep(3)
         msg.edit(f"<b>🤖 @Liztochekkkk </b>")
 
-@app.on_message(filters.command("julya", prefixes=".") & filters.me)
+@app.on_message(filters.command("diana", prefixes=".") & filters.me)
 def betalove(_, msg):
     time = 0.5
     for i in range(1):
@@ -122,19 +122,13 @@ def betalove(_, msg):
         number = number + 1
         msg.edit(f"<b> @Liztochekkkk </b>")
         sleep(time)
-        msg.edit(f"<b> Made by @Liztochekkkk </b>")
-        sleep(time)
-        msg.edit(f"<b> Discord : Liztochek#8310</b>")
-        sleep(2)
-        msg.edit(f"<b>🤖 @Liztochekkkk </b>")
-        sleep(2)
-        msg.edit(f"<b>Юличкааа самая лучшая!!! </b>")
+        msg.edit(f"<b>Дианочка самая лучшая!!! </b>")
 
-@app.on_message(filters.command("july", prefixes=".") & filters.me)
+@app.on_message(filters.command("dinanic", prefixes=".") & filters.me)
 def valentine(_, msg):
     txt = dina.split("\n")
     e = True
-    etime = int(msg.text.split('.july', maxsplit=1)[1])
+    etime = int(msg.text.split('.dinanic', maxsplit=1)[1])
     for i in txt:
         time = etime
         if e == True:
@@ -175,11 +169,11 @@ def valentine(_, msg):
     msg.edit(f'<b> 👾 Liztochek 👾 </b>')
 
 dina = '''
-<b> Юляяяяяяяя самая красивая </b>
-<b> Юляяяяяяяяяя самая лучшая </b>
-<b> Очень люблю Юлькууу!! </b>
-<b> Юляяяяя самая красивая!! </b>
-<b> Юличкаа самая милая!! </b>
+<b> Дианочка, самая красивая </b>
+<b> Дианочка, самая лучшая </b>
+<b> Очень люблю Дианочкууу!! </b>
+<b> Диана, самая красивая!! </b>
+<b> Дианочка, самая милая!! </b>
 '''
 
 @app.on_message(filters.command("dead", prefixes=".") & filters.me)
@@ -357,7 +351,7 @@ favrazrab= '''
 <b> (⊙ꇴ⊙) Это была песня - never enough (⊙ꇴ⊙) </b>
 '''
 
-@app.on_message(filters.command("juliaa", prefixes=".") & filters.me)
+@app.on_message(filters.command("dianaaa", prefixes=".") & filters.me)
 def betalove(_, msg):
     time = 0.6
     for i in range(1):
@@ -373,15 +367,15 @@ def betalove(_, msg):
         sleep(time)
         msg.edit(f"<b>я люблю одно солнце это самая милая девочка под именем</b>")  # red
         sleep(time)
-        msg.edit(f"<b>я люблю одно солнце это самая милая девочка под именем , Юлькааааа ❤</b>")  # orange
+        msg.edit(f"<b>я люблю одно солнце это самая милая девочка под именем , Дианочка ❤</b>")  # orange
         sleep(5)
         global number
         number = number + 1
         msg.edit(f"<b> @Liztochekkkk ❤</b>")
         sleep(time)
-        msg.edit(f"<b> Люблю Юлечкуууу ❤❤❤</b>")
+        msg.edit(f"<b> Люблю Дианочку ❤❤❤</b>")
         sleep(time)
-        msg.edit(f"<b> Юляяяяяяяя самая лучшая❤</b>")
+        msg.edit(f"<b> Дианочка, самая лучшая❤</b>")
         sleep(time)
         msg.edit(f"<b>🤖 @Liztochekkkk ❤</b>")
 
