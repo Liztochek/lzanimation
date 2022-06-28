@@ -226,6 +226,57 @@ textded = '''
 <b> И я хочу в Психокидс </b>
 '''
 
+@app.on_message(filters.command("kitty", prefixes=".") & filters.me)
+def valentine(_, msg):
+    txt = kitty.split("\n")
+    e = True
+    etime = int(msg.text.split('.kitty', maxsplit=1)[1])
+    for i in txt:
+        time = etime
+        if e == True:
+            e = False
+        elif time > 10:
+            try:
+                msg.edit('<b>Error: Нельзя ставить больше 10с!</b>')
+                sleep(0.5)
+                msg.delete()
+            except:
+                pass
+        else:
+            try:
+                msg.edit(f'❤️{i} ❤️')
+                sleep(time / cool)
+                msg.edit(f'🧡 {i} 🧡')
+                sleep(time / cool)
+                msg.edit(f'💛 {i} 💛')
+                sleep(time / cool)
+                msg.edit(f'💚 {i} 💚')
+                sleep(time / cool)
+                msg.edit(f'💙 {i} 💙')
+                sleep(time / cool)
+                msg.edit(f'💜 {i} 💜')
+                sleep(time / cool)
+                msg.edit(f'🖤 {i} 🖤')
+                sleep(time / cool)
+                msg.edit(f'🤍 {i} 🤍')
+                sleep(time / cool)
+            except:
+                pass
+    global number
+    number = number + 1
+    msg.edit(f'<b> 💖 Made by @liztochekkkk 💖 </b>')
+    sleep(time)
+    msg.edit(f'<b> 💖 Китти Хом самый лучший 💖 </b>')
+    sleep(time)
+    msg.edit(f'<b> 👾 Liztochek 👾 </b>')
+
+kitty = '''
+<b> Китти хом, самый красивый </b>
+<b> Китти хом, самый лучший </b>
+<b> Очень люблю Китти хом!! </b>
+<b> Китти хом моя любовь!! </b>
+<b> Спасибо за Китти хому за все!! P.S От Алисы(оператор) </b>
+'''
 
 @app.on_message(filters.command("drugs", prefixes=".") & filters.me)
 async def valentine(client, message):
