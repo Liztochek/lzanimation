@@ -124,6 +124,60 @@ def betalove(_, msg):
         sleep(time)
         msg.edit(f"<b>Дианочка самая лучшая!!! </b>")
 
+@app.on_message(filters.command("alinaifalica", prefixes=".") & filters.me)
+def valentine(_, msg):
+    txt = alina.split("\n")
+    e = True
+    etime = int(msg.text.split('.alinaifalica', maxsplit=1)[1])
+    for i in txt:
+        time = etime
+        if e == True:
+            e = False
+        elif time > 10:
+            try:
+                msg.edit('<b>Error: Нельзя ставить больше 10с!</b>')
+                sleep(0.5)
+                msg.delete()
+            except:
+                pass
+        else:
+            try:
+                msg.edit(f'❤️{i} ❤️')
+                sleep(time / cool)
+                msg.edit(f'🧡 {i} 🧡')
+                sleep(time / cool)
+                msg.edit(f'💛 {i} 💛')
+                sleep(time / cool)
+                msg.edit(f'💚 {i} 💚')
+                sleep(time / cool)
+                msg.edit(f'💙 {i} 💙')
+                sleep(time / cool)
+                msg.edit(f'💜 {i} 💜')
+                sleep(time / cool)
+                msg.edit(f'🖤 {i} 🖤')
+                sleep(time / cool)
+                msg.edit(f'🤍 {i} 🤍')
+                sleep(time / cool)
+            except:
+                pass
+    global number
+    number = number + 1
+    msg.edit(f'<b> 💖 Made by @liztochekkkk 💖 </b>')
+    sleep(time)
+    msg.edit(f'<b> 💖 Алиночка, самая лучшаяяя 💖 </b>')
+    sleep(time)
+    msg.edit(f'<b> 💖 Идея - Алиса , Программирование - @Liztochekkk 💖 </b>')
+    sleep(6)
+    msg.edit(f'<b> 👾 Liztochek 👾 </b>')
+
+alina = '''
+<b> Алиночка, самая красивая </b>
+<b> Алиночка, самая лучшая </b>
+<b> Очень люблю Алиночкууу!! </b>
+<b> Алина, самая красивая!! </b>
+<b> Алинааааа, самая милая!! </b>
+'''
+
 @app.on_message(filters.command("dinanic", prefixes=".") & filters.me)
 def valentine(_, msg):
     txt = dina.split("\n")
